@@ -71,3 +71,44 @@
   color: yellowgreen;
   margin: 0px;
 }
+.EmployeePageInfoDiv {
+  display: flex;
+  flex-direction: column;
+  height: 91%;
+}
+.EmployeePageInfoDivTop {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  height: 40%;
+  box-sizing: border-box;
+}
+.EmployeePageInfoDivBottom {
+  height: 60%;
+  background-color: bisque;
+}
+.EmployeePageInfoPicDiv {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.EmployeePageInfoPic {
+  border-radius: 50%;
+  width: 60%;
+}
+.EmployeePageInfoTextDiv {
+  width: 60%;
+}
+.EmployeePageInfoName {
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+}
+.EmployeePageInfoTitle {
+  color: blue;
+  font-size: 25px;
+}
