@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  height: 95vh;
+  width: 97vw;
+  border: 1px solid black;
+}
+.Homepage {
+  flex: 1;
+  border: 1px solid lightblue;
+  margin: 0.5%;
+}
+.EmployeePage {
+  flex: 1;
+  border: 1px solid brown;
+  margin: 0.5%;
+}
+.Header {
+  border: 1px solid blue;
+  text-align: center;
+  font-weight: bold;
+  font-stretch: wider;
+  font-size: larger;
+}
+.SearchBarDiv {
+  display: flex;
+  width: 100%;
+}
+.SearchBar {
+  width: 100%;
+}
+.EmployeeListItemDiv {
+  display: flex;
+  border: 1px solid red;
+  max-height: 80px;
+}
+.EmployeeListItemPicDiv {
+  width: 20%;
+  border-radius: 25px;
+  background-color: yellow;
+}
+.EmployeeListItemPic {
+  max-height: 100%;
+  border-radius: 50%;
+  margin-left: 0.5%;
+}
+.EmployeeListItemTextDiv {
+  width: 80%;
+  text-align: left;
+  box-sizing: border-box;
+  margin-left: 0px;
+}
+.EmployeeListItemTextDiv .Name {
+  font-weight: bold;
+}
+.EmployeeListItemTextDiv .Title {
+  font-size: smaller;
+}
