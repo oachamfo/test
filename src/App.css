@@ -112,3 +112,17 @@
   color: blue;
   font-size: 25px;
 }
+.EmployeeInfo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid burlywood;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+.EmployeeInfo > * {
+  margin: 0px;
+}
+.heading {
+  font-weight: bold;
+}

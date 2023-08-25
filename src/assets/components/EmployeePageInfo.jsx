@@ -15,7 +15,24 @@ function EmployeePageInfo(props) {
         </div>
       </div>
 
-      <div className="EmployeePageInfoDivBottom">Hello word</div>
+      <div className="EmployeePageInfoDivBottom">
+        <div className="EmployeeInfo">
+          <p className="heading">Call Office</p>
+          <p>123-456-7890</p>
+        </div>
+        <div className="EmployeeInfo">
+          <p className="heading">Call Mobile</p>
+          <p>123-456-7890</p>
+        </div>
+        <div className="EmployeeInfo">
+          <p className="heading">SMS</p>
+          <p>123-456-7890</p>
+        </div>
+        <div className="EmployeeInfo">
+          <p className="heading">Email</p>
+          <p>emplyee@company.com</p>
+        </div>
+      </div>
     </div>
   );
 }
