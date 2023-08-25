@@ -4,7 +4,7 @@ function EmployeeListItem(props) {
       <div className="EmployeeListItemPicDiv">
         <img
           className="EmployeeListItemPic"
-          src="..\src\assets\images\owusu_pic.jfif"
+          src={props.employeeImage}
           alt="Employee List Item Pic"
         />
       </div>
