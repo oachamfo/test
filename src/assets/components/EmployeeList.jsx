@@ -11,12 +11,12 @@ function EmployeeList() {
       <EmployeeListItem
         employeeName="First1 Last1"
         employeeTitle="VICE PRESIDENT"
-        employeeImage="..\src\assets\images\owusu_pic.jfif"
+        employeeImage="..\src\assets\images\male-face.webp"
       />
       <EmployeeListItem
-        employeeName="First2 Last2"
+        employeeName="Mister Owusuduah"
         employeeTitle="CEO"
-        employeeImage="..\src\assets\images\male-face.webp"
+        employeeImage="..\src\assets\images\owusu_pic.jfif"
       />
     </div>
   );
