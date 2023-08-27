@@ -5,7 +5,7 @@ function EmployeePageInfo(props) {
         <div className="EmployeePageInfoPicDiv">
           <img
             className="EmployeePageInfoPic"
-            src="https://oachamfo.github.io/test/src/assets/images/owusu_pic.jfif"
+            src="/vite.svg"
             alt="Employee Page Info Pic"
           />
         </div>
