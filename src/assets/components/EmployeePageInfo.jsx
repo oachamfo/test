@@ -5,7 +5,7 @@ function EmployeePageInfo(props) {
         <div className="EmployeePageInfoPicDiv">
           <img
             className="EmployeePageInfoPic"
-            src="./car.jfif"
+            src="../test/car.jfif"
             alt="Employee Page Info Pic"
           />
         </div>
