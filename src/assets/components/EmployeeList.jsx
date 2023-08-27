@@ -6,7 +6,7 @@ function EmployeeList() {
       <EmployeeListItem
         employeeName="First0 Last0"
         employeeTitle="PRESIDENT"
-        employeeImage="..\src\assets\images\female-face.jpg"
+        employeeImage="/src/assets/images/female-face.jpg"
       />
       <EmployeeListItem
         employeeName="First1 Last1"
